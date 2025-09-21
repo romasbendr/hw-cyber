@@ -10,14 +10,21 @@ Tested on WSL.
 # Configuration
 
 1. For propagator - `propagator/configuration/.env-propagator`
-1.1 PERIOD_SECONDS - How often to send event
-1.2 CONSUMER_ENDPOINT - Where to send event
-1.3 EVENTS_FILE - Where to read events from file path
+
+    1.1 PERIOD_SECONDS - How often to send event
+
+    1.2 CONSUMER_ENDPOINT - Where to send event
+
+    1.3 EVENTS_FILE - Where to read events from file path
 
 2. For consumer - `consumer/configuration/.env-consumer`
+
     2.1 CONSUMER_PORT - Fastapi port to run on localhost
+
     2.2 STORAGE_TYPE - Saving events. Possible values: DB , FILE
+
     2.3 STORAGE_FILE - Saving events. File .log location
+
     2.4 DB_URL - Saving events. File .db location
 
 # Steps to launch
